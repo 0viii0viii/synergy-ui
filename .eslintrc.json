@@ -17,6 +17,7 @@
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier","simple-import-sort"],
   // 원하는 규칙 추가하기
   "rules": {
+    "react/display-name": "off",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
     "no-duplicate-imports": "error",
