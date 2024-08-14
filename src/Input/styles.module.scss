@@ -1,0 +1,22 @@
+.input {
+    padding: 0.5em;
+    font-size: 13px;
+
+    &::selection {
+        background-color: black;
+        color: white;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &[type="color"] {
+        padding: unset;
+    }
+
+    &[type="number"]::-webkit-inner-spin-button{
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}

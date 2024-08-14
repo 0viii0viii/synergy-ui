@@ -1,4 +1,4 @@
-import styles from './styles.module.css';
+import styles from './styles.module.scss';
 
 export type TextFieldProps = React.InputHTMLAttributes<HTMLInputElement>;
 
