@@ -20,9 +20,6 @@ importers:
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
-      vite-tsconfig-paths:
-        specifier: ^5.0.1
-        version: 5.0.1(typescript@5.5.4)(vite@5.4.0(@types/node@22.2.0)(sass@1.77.8))
     devDependencies:
       '@chromatic-com/storybook':
         specifier: ^1.6.1
@@ -114,6 +111,9 @@ importers:
       vite:
         specifier: ^5.4.0
         version: 5.4.0(@types/node@22.2.0)(sass@1.77.8)
+      vite-tsconfig-paths:
+        specifier: ^5.0.1
+        version: 5.0.1(typescript@5.5.4)(vite@5.4.0(@types/node@22.2.0)(sass@1.77.8))
 
 packages:
 
