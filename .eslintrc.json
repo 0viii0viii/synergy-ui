@@ -23,6 +23,7 @@
     "no-duplicate-imports": "error",
     "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
     "no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "off",
     "no-multiple-empty-lines": "error",
     "react/react-in-jsx-scope": "off"
   },
