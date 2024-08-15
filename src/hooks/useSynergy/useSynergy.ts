@@ -1,5 +1,5 @@
 import { useContext } from 'react';
 
-import { SynergyContext } from '../../provider/SynergyProvider.tsx';
+import { SynergyContext } from '@/providers/Synergy/SynergyProvider.tsx';
 
 export const useSynergy = () => useContext(SynergyContext);
